@@ -19,7 +19,7 @@
 		87E4176225CC4BBB003C9076 /* MemeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E4176125CC4BBB003C9076 /* MemeTabBarController.swift */; };
 		87E4176525CC4C5F003C9076 /* MemeCollectionNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E4176425CC4C5F003C9076 /* MemeCollectionNavigationController.swift */; };
 		87E4176825CC4D3A003C9076 /* MemeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E4176725CC4D3A003C9076 /* MemeTableViewController.swift */; };
-		87E4176B25CC4DD1003C9076 /* MemeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E4176A25CC4DD1003C9076 /* MemeCollectionViewController.swift */; };
+		87E4177B25D09DC0003C9076 /* MemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E4177A25D09DC0003C9076 /* MemeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		87E4176125CC4BBB003C9076 /* MemeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTabBarController.swift; sourceTree = "<group>"; };
 		87E4176425CC4C5F003C9076 /* MemeCollectionNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionNavigationController.swift; sourceTree = "<group>"; };
 		87E4176725CC4D3A003C9076 /* MemeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeTableViewController.swift; sourceTree = "<group>"; };
-		87E4176A25CC4DD1003C9076 /* MemeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewController.swift; sourceTree = "<group>"; };
+		87E4177A25D09DC0003C9076 /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,6 @@
 				87E4175D25CC4B56003C9076 /* MemeTableNavigationController.swift */,
 				87E4176425CC4C5F003C9076 /* MemeCollectionNavigationController.swift */,
 				87E4176725CC4D3A003C9076 /* MemeTableViewController.swift */,
-				87E4176A25CC4DD1003C9076 /* MemeCollectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -108,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				87AD75F22509246800622969 /* MemeView.swift */,
+				87E4177A25D09DC0003C9076 /* MemeCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,9 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87E4177B25D09DC0003C9076 /* MemeCollectionViewCell.swift in Sources */,
 				87E4175E25CC4B56003C9076 /* MemeTableNavigationController.swift in Sources */,
 				87AD75F32509246800622969 /* MemeView.swift in Sources */,
-				87E4176B25CC4DD1003C9076 /* MemeCollectionViewController.swift in Sources */,
 				584F939E24D79BBC007C9A08 /* MemeCreatorViewController.swift in Sources */,
 				87E4176825CC4D3A003C9076 /* MemeTableViewController.swift in Sources */,
 				87E4176225CC4BBB003C9076 /* MemeTabBarController.swift in Sources */,
